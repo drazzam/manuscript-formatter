@@ -1,0 +1,38 @@
+# Streamlit Configuration for Manuscript Formatter Pro
+# Place this file in: .streamlit/config.toml
+
+[theme]
+# Professional theme matching Evidance Health Sciences branding
+primaryColor = "#667eea"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+# Server configuration
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 200
+# Max upload size in MB (increased for large manuscripts)
+
+[browser]
+# Browser configuration
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[runner]
+# Performance optimization
+magicEnabled = true
+fastReruns = true
+
+[client]
+# Client configuration
+showErrorDetails = true
+toolbarMode = "auto"
+
+[logger]
+# Logging configuration
+level = "info"
