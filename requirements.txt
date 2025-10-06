@@ -1,0 +1,20 @@
+# Manuscript Formatter Pro - Python Dependencies
+# Core dependencies for production deployment
+
+# Streamlit framework
+streamlit==1.31.0
+
+# Document processing
+python-docx==1.1.0
+
+# Image processing
+Pillow==10.2.0
+
+# Additional utilities
+python-dateutil==2.8.2
+
+# Optional: For better error handling
+sentry-sdk==1.40.0
+
+# For deployment optimization
+watchdog==3.0.0
