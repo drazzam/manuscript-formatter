@@ -6,8 +6,6 @@ Based on JAMA, NEJM, BMJ standards for academic medical publications
 from docx import Document
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
-from docx.oxml import OxmlElement
-from docx.oxml.ns import qn
 import io
 from PIL import Image
 from typing import Dict, List
