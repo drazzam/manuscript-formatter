@@ -6,7 +6,6 @@ Handles extraction of all document elements with robust error handling
 from docx import Document
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.oxml.xmlchemy import OxmlElement
 import re
 from typing import Dict, List, Tuple, Optional
 import io
